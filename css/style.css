@@ -1,1 +1,65 @@
-
+header {
+    background: url("../images/banner.jpg") no-repeat  center / cover;
+    text-align: center;
+    color: rgb(5, 9, 233);
+  }
+  .section {
+    padding: 8rem 0 7rem;
+    text-align: center;
+  }
+  .titre {
+      text-align: center;
+      padding-top: 3rem;
+  }
+  footer {
+      text-align: center;
+      color: rgb(18, 6, 128);
+      background-color: rgb(223, 233, 245);
+      font-size: 0.8rem;
+      padding: 20px 0 20px;
+      margin-top: 40px;
+  }
+  nav.primary{
+    display: table;
+    margin: 0 auto;
+  }
+  
+  nav.primary ul, nav.primary ul li {
+    margin: 0px;
+  }
+  
+  nav.primary select {
+    display: none;
+    width:  100%;
+    height: 28px;
+    margin: 21px 0;
+  }
+  
+  nav.primary ul li {
+    display: inline;
+    /* float: left; */
+    position: relative;
+  }
+  
+  nav.primary ul li a {
+    display: inline-block;
+    line-height: 49px;
+    padding:  0 14px;
+    color: rgb(5, 9, 233);
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    letter-spacing: 0.08em;
+    /* background: #999999; */
+  }
+  
+  nav.primary ul li a:hover {
+    background: #2ecc71;
+    cursor: pointer;
+  }
+  img.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
