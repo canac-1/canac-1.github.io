@@ -1,9 +1,15 @@
-header {
-    background: url("../images/banner.jpg") no-repeat  center / cover;
-    text-align: center;
-    color: rgb(5, 9, 233);
-  }
-  .section {
+header{
+  background: url("../images/banner.jpg") no-repeat  center / cover;
+  text-align: center;
+  color: white;
+ text-shadow: 0 0 15px rgb(0, 0, 0);
+ font-size: 1.5em;
+}
+h4{
+  font-weight:400;
+  text-shadow: 0 0 15px rgb(0, 0, 0)!important ;
+}
+.section {
     padding: 8rem 0 7rem;
     text-align: center;
   }

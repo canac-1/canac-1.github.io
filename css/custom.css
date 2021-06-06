@@ -6,12 +6,6 @@
 
 /* Sections
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-
-header {
-  background: url("../images/banner.jpg") no-repeat  center / cover;
-  text-align: center;
-  color: white;
-}
 .section {
   padding: 8rem 0 7rem;
   text-align: center;
