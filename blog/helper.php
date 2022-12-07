@@ -7,7 +7,7 @@ if(!defined('APP')) die();
 // Put the link to the blog with ending slash /
 // define('SITEURL', 'http://www.yoursite.com/blog/');
 
-define('SITEURL', 'https://github.com/canac-1/canac-1.github.io/blog/');   
+define('SITEURL', 'https:/canac-1/canac-1.github.io/blog/');   
 
 
 function site_link($query = '') {
